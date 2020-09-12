@@ -1,5 +1,5 @@
 <?php
-    if (empty($type)) {
+        if (empty($type)) {
       switch ($value) {
         case is_int($value):
           $type = PDO::PARAM_INT;
@@ -15,5 +15,6 @@
           break;
       }
     }
+
 
 ?>
